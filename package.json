@@ -1,0 +1,20 @@
+{
+  "name": "code-challenge-1",
+  "version": "1.0.0",
+  "description": "Code Challenge 1",
+  "license": "MIT",
+  "author": "chaikritt",
+  "scripts": {
+    "db:migrate": "tsx database/migrate.ts",
+    "db:seed": "tsx database/seed.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.16",
+    "dotenv": "^16.4.7",
+    "drizzle-kit": "^0.30.2",
+    "drizzle-orm": "^0.38.4",
+    "postgres": "^3.4.5",
+    "tsx": "^4.19.2",
+    "uuid": "^11.0.5"
+  }
+}

@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .dw-bg-badge {
+    @apply bg-[#F3F3F3];
+  }
+  .dw-bg-green-500 {
+    @apply bg-[#243831];
+  }
+  .dw-text-green-500 {
+    @apply text-[#243831];
+  }
+  .dw-bg-green-300 {
+    @apply bg-[#2B5F44];
+  }
+  .dw-text-green-300 {
+    @apply text-[#2B5F44];
+  }
+  .dw-bg-green-100 {
+    @apply bg-[#D8E9E4];
+  }
+  .dw-text-green-100 {
+    @apply text-[#D8E9E4];
+  }
+  .dw-bg-golden {
+    @apply bg-[#C5A365];
+  }
+  .dw-text-golden {
+    @apply text-[#C5A365];
+  }
+  .dw-bg-black {
+    @apply bg-[#000000];
+  }
+  .dw-text-black {
+    @apply text-[#000000];
+  }
+  .dw-bg-white {
+    @apply bg-[#FFFFFF];
+  }
+  .dw-text-white {
+    @apply text-[#FFFFFF];
+  }
+  .dw-bg-gray-100 {
+    @apply bg-[#BBC2C0];
+  }
+  .dw-text-gray-100 {
+    @apply text-[#BBC2C0];
+  }
+  .dw-bg-gray-300 {
+    @apply bg-[#939494];
+  }
+  .dw-text-gray-300 {
+    @apply text-[#939494];
+  }
+  .dw-bg-success {
+    @apply bg-[#49A569];
+  }
+  .dw-text-success {
+    @apply bg-[#49A569];
+  }
+  .dw-text-default {
+    @apply text-[#191919];
+  }
+  .dw-text-search {
+    @apply text-[#5B5B5B];
+  }
+  .dw-text-placeholder {
+    @apply text-[#A0AFBA];
+  }
+}

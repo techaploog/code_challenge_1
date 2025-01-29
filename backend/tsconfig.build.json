@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@db": ["src/db"],
+      "@api/*": ["src/api/*"],
+      "@guard/*": ["src/guard/*"],
+      "@db/*": ["src/db/*"],
+      "@dto": ["src/dto"],
+      "@config/*": ["src/config/*"]
+    }
+  },
+  "exclude": ["database", "node_modules", "test", "dist", "**/*spec.ts"]
+}
